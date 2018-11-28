@@ -1,3 +1,7 @@
+@keyframes spinAround {
+	from { transform: rotate(0deg);}
+	to {transform: rotate(360deg);}
+}
 body {
   margin: 0;
   padding: 0;
@@ -42,6 +46,15 @@ body.show {
   width: 60px;
   margin-left: 20px;
   margin-top: 20px;
+}
+.connectlogos img:hover {
+  animation: spinAround 1s ease-out 1;
+}
+.follow img:hover {
+  animation: spinAround 1s ease-out 1;
+}
+.logo img:hover {
+  
 }
 .follow {
   display: flex;
