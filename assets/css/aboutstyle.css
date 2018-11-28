@@ -1,0 +1,124 @@
+body {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.8s;
+  transform: translateY(20px);
+}
+body.show {
+  opacity: 1;
+  transform: translateY(0px);
+}
+#container {
+  width: 100%;
+}
+.collage-container {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  margin-top: 30px;
+}
+.collage-photo img {
+  height: 500px;
+  object-fit: cover;
+  opacity: 0.6;
+  transition: 1s;
+}
+.collage-photo img:hover {
+  opacity: 1;
+}
+#one img {
+  width: 300px;
+}
+#two img {
+  width: 540px;
+}
+#three img {
+  width: 300px;
+}
+#four img {
+  width: 300px;
+}
+.logo img {
+  height: 50px;
+  width: 50px;
+  z-index: 1;
+  position: absolute;
+  right: 40px;
+  top: 20px;
+}
+.top-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 60px;
+  padding-bottom: 80px;
+}
+.grad img {
+  height: 300px;
+  width: 500px;
+  margin-left: 60px;
+  object-fit: cover;
+  margin-top: 80px;
+}
+.title {
+  font-size: 40px;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: normal;
+  margin-left: 50px;
+}
+.greeting {
+  margin-top: 110px;
+  font-family: 'Avenir Next';
+  font-weight: normal;
+  font-size: 30px;
+  margin-left: 120px;
+  opacity: 0;
+  transition: 0.8s;
+  transform: translateY(20px);
+}
+body.show .greeting {
+  opacity: 1;
+  transition-delay: 0.5s;
+  transform: translateY(0px);
+}
+.about {
+  margin-top: 40px;
+  font-family: 'Avenir Next';
+  font-weight: lighter;
+  font-size: 16px;
+  margin-left: 120px;
+  line-height: 1.5;
+  opacity: 0;
+  transition: 0.8s;
+  transform: translateY(20px);
+}
+body.show .about {
+  opacity: 1;
+  transition-delay: 0.5s;
+  transform: translateY(0px);
+}
+mark.bold {
+  font-weight: normal;
+  background: none
+}
+.bottom-container {
+  padding-bottom: 40px;
+}
+.rectangle {
+  width: 340px;
+  height: 55px;
+  margin-left: 880px;
+}
+.rectangle#one {
+  background-color: #EBE1E1;
+  margin-top: 90px;
+}
+.rectangle#two {
+  background-color: #B7B1B1;
+  margin-top: -30px;
+  margin-left: 1040px;
+}

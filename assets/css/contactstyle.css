@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+  transition: 0.8s;
+  transform: translateY(20px);
+}
+body.show {
+  opacity: 1;
+  transform: translateY(0px);
+}
+.logo img {
+  position: absolute;
+  top: 15;
+  right: 30;
+  height: 50px;
+  width: 50px;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  padding-top: 140px;
+  font-family: 'Avenir Next';
+  font-weight: lighter;
+  font-size: 30px;
+}
+.connect {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-family: 'Avenir Next';
+  font-weight: lighter;
+  font-size: 25px;
+}
+.connectlogocontainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.connectlogos img {
+  height: 60px;
+  width: 60px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.follow {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-family: 'Avenir Next';
+  font-weight: lighter;
+  font-size: 25px;
+}
+.follow img {
+  height: 60px;
+  width: 60px;
+  margin-left: 20px;
+}
+.followlogocontainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.rectangle {
+  width: 340px;
+  height: 55px;
+  margin-left: 120px;
+  margin-top: 150px;
+  position: absolute;
+  right: 60;
+  bottom: 50;
+}
+.rectangle#one {
+  background-color: #EBE1E1;
+  margin-bottom: 24px;
+  margin-right: 180px;
+}
+.rectangle#two {
+  background-color: #B7B1B1;
+  /* margin-top: -30px;
+  margin-left: 300px; */
+}
